@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display:  flex;
+    height: 40vh;
+    width: 40vh;
+    flex-wrap: wrap;
+    margin-top: (50% - 20vh);
+    margin-left: (50% - 20vh);
+    
+}
+.Side1:hover, .Side2:hover,.Side3:hover,.Side4:hover{
+    background-color: aqua;
+    color: darkblue;
+    text-align: center;
+    justify-content: center;
+}
+
+.Side1 {
+ display: flex;
+ background-color: #bedcfa;
+ flex-basis: 50%;
+ cursor: pointer;
+}
+
+.Side2{
+ display: flex;
+ background-color: #98acf8;
+ flex-basis: 50%;
+ cursor: pointer;
+}
+
+.Side3{
+    display: flex;
+ background-color: #b088f9;
+ flex-basis: 50%;
+ cursor: pointer;
+}
+.Side4{
+    display: flex;
+ background-color: #da9ff9;
+ flex-basis: 50%;
+ cursor: pointer;
+}
+
+.btn {
+    background-color: beige;
+    border : crimson;
+    display: flex;
+    width: 50px;
+    height: 20px;
+    position: relative;
+    margin: 20px 20px;
+}
+h1 {
+    text-align: center;
+    margin-top: 10vh;
+}
