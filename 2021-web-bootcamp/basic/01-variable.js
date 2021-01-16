@@ -16,10 +16,19 @@ var name = "Angela";
 
 alert(message +" there, " + name);
 
-//
+//slice, length
+
 var message = prompt("Compose your tweet!");
 alert("you have written " + message.length + "you have " + (150-message.length) + "charaters left");
 alert(message.slice(0,140));
+
+
+var name = "hano";
+alert(name.toUpperCase());
+alert(name);
+name = name.toUpperCase();
+alert(name);
+
 
 
 
